@@ -1,0 +1,96 @@
+//HTMML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <img id="logo" src="https://s.glbimg.com/en/ho/static/globo_com_2016/img/home_200x200.png"/img>
+    
+    <h1 id="pt1">ASSINE JA MINHA CONTA E-MAIL</h1>
+    
+    <l1 id="pt2"><span id="g1"> g1</span> <span id="ge">ge</span> <span id="gshow">gshow</span><span id="tech"> tech </span> <span id="videos">videos</span></l1>
+    
+    <l1 id="pt3"> <span id="lupa">⌕</span> encontre na globo.com</l1>
+    <img id="user" src="https://thumbs.dreamstime.com/b/%C3%ADcone-roxo-azul-do-inclina%C3%A7%C3%A3o-usu%C3%A1rio-s%C3%ADmbolo-homem-146544711.jpg"/img>
+
+
+
+    
+  </body>
+</html>
+
+
+//css
+#logo{
+  float: left;
+  position: relative;
+  top: -14px;
+  left: 48px;
+  width:9%;
+  height: 9%;
+}
+#pt1{
+  
+  float: left;
+  position: relative;
+  top: 35px;;
+  left: 40%;
+  font-size: 70%;
+  color:rgb(85, 80, 80);
+  
+}
+#pt2{
+  float: left;
+  position: relative;
+  top: 35px;
+  right: 5%;
+  font-size: 150%;
+
+}
+#g1{
+  color:rgb(151, 38, 38);
+  right: 5%;
+  
+}
+#ge{
+  color: green;
+}
+#gshow{
+  color: orange;
+}
+#tech{
+  color: rgb(85, 80, 80);
+}
+#videos{
+  color:blue;
+}
+#pt3{
+  float:left;
+  position:relative;
+  top:30px;
+  left:25%;
+  font-size:100%;
+  color:rgb(85, 80, 80);
+  background:white;
+  width:20%;
+  height:3%;
+  padding:7px;
+  border-radius: 3px; 
+  border:1px solid rgb(85, 80, 80);
+
+}
+#lupa{
+  color: blue;
+}
+#user{
+  float:left;
+  position:relative;
+  top:27px;
+  left:26%;
+  width:3%;
+  height:3%;
+}
